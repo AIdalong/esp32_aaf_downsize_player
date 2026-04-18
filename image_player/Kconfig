@@ -1,0 +1,8 @@
+menu "image_player"
+
+config ANIM_PLAYER_DEFAULT_FPS
+    int "Default FPS for anim player"
+    default 30
+    range 1 60
+
+endmenu
